@@ -1,0 +1,9 @@
+.main {
+    font-size: 18px;
+}
+
+.selected {
+    font-weight: bold;
+    /* font-size: 24px; */
+    color: blue;
+}
