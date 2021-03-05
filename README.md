@@ -35,6 +35,7 @@ or
 ### Future TODO
 + Filter Doesn't work for marriage
 + CSS on the pagination, sorting, filter and page selection
++ Do the last requirement, lots of reading here or just use huge nested IF statments
 
 ### Some Explainations
 It's been a while since I coded JS, may look messy.  
