@@ -37,5 +37,12 @@ or
 + CSS on the pagination, sorting, filter and page selection
 
 ### Some Explainations
-It's been a while since I coded JS, may look messy.
-I didn't use class as I want to try the new react hook method.
+It's been a while since I coded JS, may look messy.  
+I didn't use class as I want to try the new react hook method.  
+Looking at the requirements, a website is a good platform. This gives us a few options:  
++ Python+Flask+HTML = API calls is a pain, all the downsides of JS+HTML
++ JS+HTML = Synchronous is a pain, and no state
++ Ionic/Agular = Mainly for mobile, a bit slow
++ Native React = Ideal
+
+I choose native react due to the need of adata (collection) manipulations. And the fact the the variable can be binded to state which reduces a lot of redundancy.
