@@ -187,13 +187,13 @@ function Tables() {
 
 
             {/* Search Filter */}
-            <div>
-                Filter: <input type="text" onInput={event => changeFilter(event)} />
+            <div className={style.fill}>
+                Filter: &emsp;<input type="text" onInput={event => changeFilter(event)} />
             </div>
 
             {/* Sort Button */}
             <div>
-                {sortBy}
+                Sort by: &emsp;
                 <button onClick={() => changeSortBy("Name")}>
                     {(sortBy === "Name") ?
                         <span className={style.selected}>Name △</span>
@@ -222,7 +222,7 @@ function Tables() {
 
             {/* Pagination Button */}
             <div>
-                Pagination: 
+                Pagination: &emsp;
                 <button onClick={() => changePagination(10)}>{(pagination === 10) ? <span className={style.selected}>10</span> : 10}</button>
                 <button onClick={() => changePagination(20)}>{(pagination === 20) ? <span className={style.selected}>20</span> : 20}</button>
                 <button onClick={() => changePagination(30)}>{(pagination === 30) ? <span className={style.selected}>30</span> : 30}</button>
@@ -232,12 +232,12 @@ function Tables() {
             {/* Page select */}
             <div>
                 <button onClick={() => changePage(false)}>Prev</button>
-                {page}
+                &emsp;{page}&emsp;
                 <button onClick={() => changePage(true)}>Next</button>
             </div>
 
             {/* Table */}
-            <table>
+            <table className={style.table}>
                 <tbody>
                 <tr>
                     <th>Name</th>
@@ -266,7 +266,7 @@ function Tables() {
             {/* Page select */}
             <div>
                 <button onClick={() => changePage(false)}>Prev</button>
-                {page}
+                &emsp;{page}&emsp;
                 <button onClick={() => changePage(true)}>Next</button>
             </div>
         </div>

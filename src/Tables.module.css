@@ -7,3 +7,42 @@
     /* font-size: 24px; */
     color: blue;
 }
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 1px 10px;
+}
+
+td {
+    border-top: none;
+    border-bottom: none;
+}
+
+
+tr:nth-child(odd) {
+    background: #f1f1f1;
+}
+
+tr:hover {
+    background: #d3d3d3;
+}
+
+/* Big screen */
+table {
+    width: 100vw;
+}
+
+/*  > 768p screen */
+@media only screen and (min-width: 768px) {
+    table {
+        width: 80vw;
+    }
+}
+
+/* > 1080p screen */
+@media only screen and (min-width: 1080px) {
+    table {
+        width: 50vw;
+    }
+}
