@@ -2,8 +2,7 @@
 ## Start-up
 + Clone this repo
 ```git clone https://github.com/Edel-weiB/RYDE-challange-Joey```
-+ Install dependencies (skip if you already have react.js and node)
- + install node https://nodejs.org/en/download/
++ install node https://nodejs.org/en/download/ (skip if already have)
 + start the server
 ```npm start```
 or
