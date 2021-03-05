@@ -1,4 +1,6 @@
 # RYDE Challange
+Written in native React JS.
+
 ## Start-up
 + Clone this repo
 ```git clone https://github.com/Edel-weiB/RYDE-challange-Joey```
@@ -33,3 +35,7 @@ or
 ### Future TODO
 + Filter Doesn't work for marriage
 + CSS on the pagination, sorting, filter and page selection
+
+### Some Explainations
+It's been a while since I coded JS, may look messy.
+I didn't use class as I want to try the new react hook method.
