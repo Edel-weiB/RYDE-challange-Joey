@@ -24,6 +24,7 @@ or
 
 ## Notes / Feature
 + Filter works for Name, Age or Job
++ Can sort ascending and descending
 + Table hover for easier reading
 + Page have min and max bounds depending on the pagination
 
